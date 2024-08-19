@@ -18,7 +18,7 @@ assistance = input("Please enter if you need any assistance: ")
 #ipdb.set_trace()
 
 if feeling.lower() in ["good", "great", "nice", "so good", "really good", "super good", "really nice", "very nice"] and assistance.lower() in ["no", "nope", "not really", "not at all"]:
-    print("If you are not needing assistance or you are not angry, frustrated, etc., I would recommend you to leave/exit this program.")
+    print("If you are not needing assistance or you are not angry, frustrated, etc then please come when your not feeling better.")
 else:
     print("Alright, here's a tip if you're angry, frustrated, etc.")
     print("Try to meditate or do some breathing exercises.")
