@@ -1,0 +1,30 @@
+# This is a test program
+""" 
+This code is a test code by coder Yuvaan Singh
+License: MIT 
+Date: 18/08/2024
+Author: Yuvaan Singh, Aanya Singh
+Gitlab: http://gitlab.com/ysingh
+"""
+import ipdb 
+name = input("What is your name?")
+print("Hi " + name + "!")
+
+feeling = input("How are you feeling? ")
+print("You are feeling " + feeling + ".")
+
+print("Need any assistance?")
+assistance = input("Please enter if you need any assistance: ")
+#ipdb.set_trace()
+
+if feeling.lower() in ["good", "great", "nice", "so good", "really good", "super good", "really nice", "very nice"] and assistance.lower() in ["no", "nope", "not really", "not at all"]:
+    print("If you are not needing assistance or you are not angry, frustrated, etc., I would recommend you to leave/exit this program.")
+else:
+    print("Alright, here's a tip if you're angry, frustrated, etc.")
+    print("Try to meditate or do some breathing exercises.")
+    still_angry = input("Please enter if still angry, frustrated, etc: ")
+    if still_angry.lower() == "yes":
+        print("Try to discuss your problem with your loved ones, especially with your family members.")
+    else:
+        print("That's good to know. Have a good day!")
+        print("Thank you")
