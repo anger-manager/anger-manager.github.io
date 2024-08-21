@@ -2,6 +2,8 @@ Anger Management AI App
 
 Author: Yuvaan Singh
 
+development language: Python 3.12.0-a md64
+
 This unauthorised use and distribution of this code can lead to crminal procecution. 
 
 Licence: open licence MIT
